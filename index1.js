@@ -25,6 +25,7 @@ const fs = require('fs');
 // const result = fs.readFileSync("./a1","utf-8");
 // console.log(result);
   
-fs.appendFileSync("./abes.txt",`PHD`);
+// fs.appendFileSync("./abes.txt",`PHD`);
 
-fs.cpSync("./abes.txt","./a2.txt");
+// fs.cpSync("./abes.txt","./a2.txt");
+fs.unlinkSync("./abes.txt");
