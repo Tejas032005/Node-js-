@@ -28,4 +28,29 @@ const fs = require('fs');
 // fs.appendFileSync("./abes.txt",`PHD`);
 
 // fs.cpSync("./abes.txt","./a2.txt");
-fs.unlinkSync("./abes.txt");
+// fs.unlinkSync("./abes.txt");
+// fs.unlink("./a1.txt",(err)=>{
+// if(err){
+//     console.log("Error",err);
+    
+// }
+// else{
+//     console.log("data delete");
+    
+// }
+// });
+
+
+
+
+
+// os 
+const os = require('os');
+console.log("system platform", os.platform());// for system platform 
+console.log("user info", os.userInfo());// user info wih path 
+console.log("cpu",os.arch());// for checking cpu architecture 
+console.log("Free memory", os.freemem());// free memory balace in our system 
+console.log("total memory", os.totalmem());// total memory 
+console.log("up time", os.uptime());
+
+
