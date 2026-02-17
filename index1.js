@@ -52,5 +52,7 @@ console.log("cpu",os.arch());// for checking cpu architecture
 console.log("Free memory", os.freemem());// free memory balace in our system 
 console.log("total memory", os.totalmem());// total memory 
 console.log("up time", os.uptime());
+console.log("Home directory", os.homedir());
+console.log("host name",os.hostname());
 
 
